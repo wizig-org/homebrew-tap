@@ -2,26 +2,26 @@
 class Wizig < Formula
   desc "Mobile framework: native iOS/Android hosts with shared Zig runtime"
   homepage "https://wizig.org"
-  version "0.0.1"
+  version "0.0.2"
   license "MIT"
 
   on_macos do
     if Hardware::CPU.arm?
-      url "https://github.com/wizig-org/wizig/releases/download/v0.0.1/wizig-0.0.1-macos-arm64.tar.gz"
-      sha256 "9b0792d2694733da2d42b76a5cdfc0dfcc6000e1526a113c23b3b2043d18de99"
+      url "https://github.com/wizig-org/wizig/releases/download/v0.0.2/wizig-0.0.2-macos-arm64.tar.gz"
+      sha256 "513618958e1db192422d76cec19ae65fbd2432f5e6fa6d4123eedd979240677a"
     else
-      url "https://github.com/wizig-org/wizig/releases/download/v0.0.1/wizig-0.0.1-macos-x86_64.tar.gz"
-      sha256 "698821af4ce4e537587f03f965509fe85da07015cba078f4094653116733f47b"
+      url "https://github.com/wizig-org/wizig/releases/download/v0.0.2/wizig-0.0.2-macos-x86_64.tar.gz"
+      sha256 "35e717c576fbf33be3a159de2aa4c013b4f2edcc0c05a069051271670f65fd09"
     end
   end
 
   on_linux do
     if Hardware::CPU.arm?
-      url "https://github.com/wizig-org/wizig/releases/download/v0.0.1/wizig-0.0.1-linux-arm64.tar.gz"
-      sha256 "a38d9c78eec598c5697c4765c2ded16ab55c0854cf17c641ade21ba2cc26cf58"
+      url "https://github.com/wizig-org/wizig/releases/download/v0.0.2/wizig-0.0.2-linux-arm64.tar.gz"
+      sha256 "53c2f4d9fb2d4f92f71607d6837f13cfad477cc532f522bd618fb038ffc3a751"
     else
-      url "https://github.com/wizig-org/wizig/releases/download/v0.0.1/wizig-0.0.1-linux-x86_64.tar.gz"
-      sha256 "a096f6eca0ccca0d11b613c93760e707f42939e19160d4e61646e7a889398158"
+      url "https://github.com/wizig-org/wizig/releases/download/v0.0.2/wizig-0.0.2-linux-x86_64.tar.gz"
+      sha256 "5f5f95708003ac1bffe41cf24f76a37b41f02a319d2da0f597c225d87aae28c1"
     end
   end
 
